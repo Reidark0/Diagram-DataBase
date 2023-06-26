@@ -1,0 +1,17 @@
+1. Quais são as entidades necessárias?
+
+A Entidade Empresa, onde vão estar cadastrados as Empresas parceiras e suas informações.
+A Entidade Colaborador, onde vão estar cadastrados os Funcionários das empresas 
+A entidade Tecnologia, onde vão estar as tecnologias a usadas atualmente e a 
+Tabela deTecnologias das empresas , que mostrará qual funcionário é o responsavel pela tecnologia na empresa.
+
+
+2. Quais são os principais campos e seus respectivos tipos?
+Todos os campos são do tipo VARCHAR exceto o ID que é INT.
+
+
+3. Como essas entidades estão relacionadas?
+A entidade Empresas esta relacionado com a Colaborador como 1 pra N
+A entidade Empresas esta relacionado com a Tecnologia das empresas como N pra N
+A entidade Colaborador esta relacionado com a Tecnologia das empresas como 1 pra 1
+A entidade Tecnologia esta relacionado com a Tecnologia das empresas como 1 pra N
